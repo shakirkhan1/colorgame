@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="colorcss.css">
+</head>
+<body >
+
+  <h1 id="idh1">
+             The Great 
+             <br>
+             <span id="colordisplay">RGB</span> 
+             <br>
+            Color Game</h1>
+   <div id="stripe">
+      <button id="reset">New Color</button>
+       <span id="message"></span>
+       <button class="mode">Easy</button>
+       <button class="mode selected">Hard</button>
+       <button class="rules">Rules</button>
+   </div>
+
+   <!-- below code is to create side-nav for rules with animation -->
+
+   <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p>The color game is very simple  &nbsp,
+     your task is to identify the color which</br> is equivelant to
+   given random hex code variate rgb version of css colors.</br>
+    For <strong>Easy </strong> mode, you are given two </br>
+  chances,that is on 2nd chance you have to identify the correct color, and</br>
+   For <strong>Hard </strong> mode, you are given three </br>
+  chances,that is on 3rd chance you have to to identify the correct color.</p>
+</div>
+
+   <div id="container">
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+   </div>
+   
+  
+   <script type="text/javascript" src="colorjs.js"></script>
+</body>
+</html>
